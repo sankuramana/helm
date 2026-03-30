@@ -1,6 +1,6 @@
 deployment:
   replicas: 2
-  imageVersion: latest #upgrading version appversion
+  imageVersion: stable-alpine3.23-perl #upgrading version appversion
 service:
   type: LoadBalancer
   servicePort: 80

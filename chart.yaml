@@ -2,4 +2,4 @@ apiVersion: v2
 name: nginx # chart name
 version:  1.0.1 # chart version
 description: upgrading to stable-perl version
-appVersion: stable-perl # this is application version
+appVersion: nginxstable-alpine3.23-perl # this is application version
