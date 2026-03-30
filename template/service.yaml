@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx
 spec:
-  type: {{ .Values.service.type }}
+  type: {{ .Values.service.type }} #templatising
   selector:
     purpose: helm-demo
     project: roboshop

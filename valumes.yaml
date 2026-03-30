@@ -1,5 +1,5 @@
 deployment:
-  replicas: 5
+  replicas: 2
   imageVersion: stable-bookworm-perl #upgrading version appversion
 service:
   type: LoadBalancer
